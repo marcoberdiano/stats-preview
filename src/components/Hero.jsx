@@ -1,6 +1,3 @@
-import heroimg from '../images/image-header-desktop.jpg';
-import heroimgmobile from '../images/image-header-mobile.jpg';
-
 const Hero = () => {
     return ( 
         <div className="hero-container">
