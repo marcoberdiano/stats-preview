@@ -31,8 +31,6 @@ const Hero = () => {
             </div>
 
             <div className="hero-right">
-                <img className='hero-img' src={heroimg} alt=''></img>
-                <img className='hero-img-mobile' src={heroimgmobile} alt=''></img>
             </div>
         </div>
      );
