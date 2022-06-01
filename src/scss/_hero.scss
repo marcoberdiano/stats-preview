@@ -8,7 +8,7 @@
     align-items: center;
     gap: 2em;
     .hero-left {
-        padding: 0px 2.5em;
+        padding: 0px 3em;
         .hero-title, .hero-subtitle {
             margin: 1em 0px;
         }
@@ -33,9 +33,12 @@
             justify-content: space-between;
             align-items: center;
             color: $White;
-            padding: 20px 0px; 
+            padding: 20px 0px;
+            font-family: $Inter; 
             .hero-stat {
+                margin-top: 15px;
                 .hero-category {
+                    margin-top: 5px;
                     color: $SlightlyTransparentWhiteS;
                     text-transform: uppercase;
                     font-size: 0.8em;
@@ -50,14 +53,14 @@
         width: 100%;
         padding: 12em 0px;
         background-size: cover;
-        background-image: url('../images/image-header-desktop.jpg');
+        background-image: linear-gradient(hsla(277, 64%, 61%, 0.4),hsla(277, 64%, 61%, 0.4)), url('../images/image-header-desktop.jpg');
         background-repeat: no-repeat;
         border-bottom-right-radius: 10px;
         border-top-right-radius: 10px;
     }
 }
 
-@media only screen and (max-width: 955px) {
+@media only screen and (max-width: 900px) {
     .hero-container {
         width: 22em;
         padding-bottom: 1em;
@@ -65,7 +68,8 @@
         text-align: center;
 
         .hero-right {
-            background-image: url('../images/image-header-desktop.jpg');
+            padding: 8em 0px;
+            background-image: linear-gradient(hsla(277, 64%, 61%, 0.4),hsla(277, 64%, 61%, 0.4)), url('../images/image-header-mobile.jpg');
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
             border-bottom-right-radius: 0px;
